@@ -1,23 +1,21 @@
 # Database Game (DBG)
 
-Pokémon-Sammelspiel als Lernprojekt.
+A Pokémon collecting game built as a learning project — inspired by the Discord bot Mudae.
 
-## Idee
+## Concept
 
-Nutzer ziehen in einem Zeitintervall zufällige Pokémon, verwalten ihre Sammlung und können mit anderen Nutzern tauschen.
+Users draw random Pokémon on a cooldown timer, manage their collection, and can trade with other users.
 
-## Tech-Stack
+## Tech Stack
 
-- **Datenbank:** SQLite (V0.1), später PostgreSQL
+- **Database:** SQLite (V0.1), later PostgreSQL
 - **Backend:** Python
 - **API:** PokéAPI (pokeapi.co)
 
 ## Status
 
-V0.1 — CLI-Prototyp in Entwicklung
+V0.1 — CLI prototype in development
 
-# Hinweis
+## Disclaimer
 
-Dieses Projekt nutzt Pokémon-Daten via PokéAPI zu Lernzwecken. Pokémon ist eine Marke von Nintendo/The Pokémon Company. Für eine Veröffentlichung werden eigene Kreaturen verwendet.
-```
-
+This project uses Pokémon data via PokéAPI for learning purposes. Pokémon is a trademark of Nintendo / The Pokémon Company. For public release, original creatures will be used instead.```
