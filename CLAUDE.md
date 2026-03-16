@@ -17,7 +17,7 @@ with original creatures (see roadmap V3.0).
 ## Current Status (V0.1 — CLI Prototype)
 - [x] Schema designed (5 tables: user, pokemon, user_pokemon, trade, trade_item)
 - [x] schema.sql written and pushed to GitHub
-- [ ] Python script: create DB from schema.sql
+- [x] Python script: create DB from schema.sql (`scripts/init_db.py`)
 - [ ] Python script: import Pokémon from PokéAPI
 - [ ] CLI draw mechanic: draw Pokémon and display collection
 

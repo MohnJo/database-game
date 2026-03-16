@@ -17,8 +17,11 @@ CREATE TABLE pokemon (
     base_attack INTEGER NOT NULL,
     base_hp INTEGER NOT NULL,
     base_defense INTEGER NOT NULL,
+    base_sp_attack INTEGER NOT NULL,
+    base_sp_defense INTEGER NOT NULL,
     base_speed INTEGER NOT NULL,
-    image_url VARCHAR(255)
+    image_url VARCHAR(255),
+    shiny_image_url VARCHAR(255)
 );
 
 CREATE TABLE user_pokemon (
@@ -27,6 +30,7 @@ CREATE TABLE user_pokemon (
     pokemon_id INTEGER NOT NULL,
     draw_at TIMESTAMP NOT NULL,
     is_favorite BOOLEAN NOT NULL,
+    is_shiny BOOLEAN NOT NULL DEFAULT 0,
     nickname VARCHAR(50),
     FOREIGN KEY (user_id) REFERENCES user(user_id),
     FOREIGN KEY (pokemon_id) REFERENCES pokemon(pokemon_id)
